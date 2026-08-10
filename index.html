@@ -91,11 +91,11 @@
     问题描述、截图、日志或其他反馈材料，仅用于回复、定位和解决相关问题。
   </p>
 
-  <p><strong>4. TapTap PC SDK</strong></p>
+  <p><strong>4. TapSDK（Windows / Android）</strong></p>
   <p>
-    本游戏的 Windows TapTap 发布版本接入 TapSDK PC C++ SDK。
-    当前接入用途仅为 TapTap PC 启动校验、平台运行状态判断，以及确保游戏通过 TapTap PC 客户端正常启动。
-    当前未启用 TapTap 登录、好友、成就、排行榜、云存档、TapTap 多人联机等其他 TapSDK 功能。
+    本游戏的 TapTap 发布版本接入 TapSDK：Windows 使用 TapSDK PC C++ SDK，Android 使用 TapSDK Android SDK。
+    当前接入用途包括：Windows 版本的 TapTap PC 启动校验、平台运行状态判断，以及 Android 版本的 TapSDK 基础初始化与更新唤起。
+    当前未启用 TapTap 登录、好友、成就、排行榜、云存档、TapTap 多人联机等其他 TapSDK 功能。Android 更新唤起功能可能在用户使用该功能时使用网络权限及安装 APK 相关权限，以唤起或安装 TapTap 客户端。
   </p>
   <p>
     TapSDK 在提供相应服务时，可能按照其官方隐私政策处理实现 SDK 运行、网络连接、
@@ -110,8 +110,8 @@
   <h2>二、权限使用说明</h2>
   <p>
     本游戏仅申请实现具体功能所必要的系统权限。多人联机功能以及 TapTap PC 启动校验等网络服务
-    需要网络访问能力。当前 Windows TapTap 版本不会因为接入 TapSDK 而主动申请与已启用功能无关的
-    相机、麦克风、通讯录、精确位置等权限。
+    需要网络访问能力。当前版本不会因为接入 TapSDK 而主动申请与已启用功能无关的相机、麦克风、通讯录、精确位置等权限。
+    Android 更新唤起模块可能按功能需要使用网络权限及安装 APK 相关权限。
     如后续版本新增需要其他权限的功能，我们将结合实际功能说明使用目的，并遵循最小必要原则。
   </p>
 
@@ -167,7 +167,7 @@
     </tr>
     <tr>
       <td>SDK 名称</td>
-      <td>TapSDK（PC C++ SDK）</td>
+      <td>TapSDK（PC C++ SDK / Android SDK）</td>
     </tr>
     <tr>
       <td>服务提供方</td>
@@ -175,7 +175,7 @@
     </tr>
     <tr>
       <td>当前使用目的</td>
-      <td>TapTap PC 启动校验、平台运行状态判断、确保游戏通过 TapTap PC 客户端正常启动</td>
+      <td>Windows：TapTap PC 启动校验、平台运行状态判断；Android：TapSDK 基础初始化与更新唤起</td>
     </tr>
     <tr>
       <td>可能处理的信息类型</td>
