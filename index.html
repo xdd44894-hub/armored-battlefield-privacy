@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index,follow">
-  <title>《装甲战场》隐私政策</title>
+  <title>《装甲战场》隐私政策 / Armored Battlefield Privacy Policy</title>
   <style>
     :root{
       --bg:#0e1513;
@@ -13,7 +13,6 @@
       --muted:#aeb8b1;
       --line:#2a3931;
       --accent:#a5b28a;
-      --warn:#ffd18a;
     }
     *{box-sizing:border-box}
     body{
@@ -26,153 +25,302 @@
     main{
       max-width:920px;
       margin:0 auto;
-      padding:42px 22px 72px;
+      padding:30px 22px 72px;
+    }
+    .langbar{
+      display:flex;
+      justify-content:flex-end;
+      gap:10px;
+      margin-bottom:24px;
+    }
+    .langbar button{
+      appearance:none;
+      border:1px solid var(--line);
+      background:var(--panel);
+      color:var(--text);
+      padding:9px 16px;
+      border-radius:8px;
+      font-size:15px;
+      cursor:pointer;
+    }
+    .langbar button.active{
+      border-color:var(--accent);
+      color:#dce8c8;
     }
     h1,h2{line-height:1.35}
     h1{font-size:30px;margin:0 0 8px}
-    h2{font-size:21px;margin:34px 0 10px;border-bottom:1px solid var(--line);padding-bottom:8px}
+    h2{
+      font-size:21px;
+      margin:34px 0 10px;
+      border-bottom:1px solid var(--line);
+      padding-bottom:8px;
+    }
     p,li{font-size:16px}
     .meta{color:var(--muted);margin-bottom:24px}
-    .notice{
-      background:#1d261f;
-      border:1px solid #46513f;
-      border-left:4px solid var(--warn);
-      padding:14px 16px;
-      border-radius:8px;
-      margin:20px 0 28px;
-    }
-    .placeholder{
-      color:var(--warn);
-      font-weight:700;
-    }
-    a{color:#c8d7b0}
-    code{background:#202a25;padding:2px 5px;border-radius:4px}
-    table{width:100%;border-collapse:collapse;margin:14px 0 22px}
-    th,td{border:1px solid var(--line);padding:10px 12px;text-align:left;vertical-align:top;font-size:15px}
-    th{background:#18231e}
+    .name{color:#c8d7b0;font-weight:700}
     footer{margin-top:44px;color:var(--muted);font-size:14px}
+    [hidden]{display:none!important}
   </style>
 </head>
 <body>
 <main>
-  <h1>《装甲战场》隐私政策</h1>
-  <div class="meta">更新日期：2026年8月10日　|　生效日期：2026年8月10日</div>
+  <div class="langbar" aria-label="Language">
+    <button id="btn-zh" type="button" onclick="setLanguage('zh')">中文</button>
+    <button id="btn-en" type="button" onclick="setLanguage('en')">English</button>
+  </div>
 
-  <p>
-    欢迎使用《装甲战场》（以下简称“本游戏”）。本隐私政策由
-    <span class="placeholder">5923工作室</span>
-    （以下简称“我们”）制定，用于说明本游戏在提供游戏运行、存档、多人联机等功能时，
-    如何处理与保护用户信息。
-  </p>
-  <p>
-    我们遵循合法、正当、必要和诚信原则，仅在实现相应功能所必需的范围内处理信息。
-    若本游戏后续增加需要处理新的个人信息的功能，我们将依法更新本政策，并在必要时重新取得用户授权。
-  </p>
+  <article id="policy-zh">
+    <h1>《装甲战场》隐私政策</h1>
+    <div class="meta">更新日期：2026年8月10日　|　生效日期：2026年8月10日</div>
 
-  <h2>一、我们处理的信息及用途</h2>
+    <p>
+      欢迎使用《装甲战场》（以下简称“本游戏”）。本隐私政策由
+      <span class="name">5923工作室</span>
+      （以下简称“我们”）制定，用于说明本游戏在提供游戏运行、本地存档、多人联机等功能时，
+      如何处理与保护用户信息。
+    </p>
+    <p>
+      我们仅在实现相应游戏功能所必要的范围内处理信息。
+      若未来版本新增需要处理其他信息的功能，我们会相应更新本政策。
+    </p>
 
-  <p><strong>1. 本地游戏数据</strong></p>
-  <p>
-    为保存游戏进度和使用偏好，本游戏可能在用户设备本地保存昵称、游戏设置、按键设置、
-    画面与音频设置、载具/成就/熟练度等游戏进度信息，以及本地账户或存档数据。
-    这些数据主要用于在用户设备上恢复游戏状态和提供正常游戏功能。
-  </p>
+    <h2>一、我们处理的信息及用途</h2>
 
-  <p><strong>2. 多人联机所需的网络信息</strong></p>
-  <p>
-    当用户主动使用多人联机功能时，为建立连接、同步战局、维持会话及排查连接故障，
-    网络通信可能涉及 IP 地址、端口、连接状态、会话标识以及必要的游戏同步数据。
-    这些信息仅在实现多人联机功能所必需的范围内处理。
-  </p>
+    <p><strong>1. 本地游戏数据</strong></p>
+    <p>
+      为保存游戏进度和使用偏好，本游戏可能在用户设备本地保存昵称、游戏设置、按键设置、
+      画面与音频设置、载具、成就、熟练度以及其他游戏进度信息。
+      这些数据主要用于恢复游戏状态并提供正常游戏功能。
+    </p>
 
-  <p><strong>3. 用户主动提供的信息</strong></p>
-  <p>
-    当用户主动通过邮件、游戏平台评论区或其他方式联系我们时，我们可能处理用户主动提供的联系方式、
-    问题描述、截图、日志或其他反馈材料，仅用于回复、定位和解决相关问题。
-  </p>
+    <p><strong>2. 多人联机所需的网络信息</strong></p>
+    <p>
+      当用户主动使用多人联机功能时，为建立连接、同步战局、维持会话及排查连接故障，
+      网络通信可能涉及 IP 地址、端口、连接状态、会话标识以及必要的游戏同步数据。
+      这些信息仅在实现多人联机功能所必要的范围内处理。
+    </p>
 
-  <p><strong>4. 第三方平台或 SDK</strong></p>
-  <p>
-    当前版本未接入第三方平台 SDK、广告 SDK、第三方登录 SDK或统计分析 SDK。若未来版本接入其他第三方平台或 SDK，
-    我们会根据实际启用的功能更新本隐私政策，并说明相关服务提供方、使用目的及可能处理的信息类型。
-  </p>
+    <p><strong>3. 用户主动提供的信息</strong></p>
+    <p>
+      当用户主动通过电子邮件、游戏平台评论区或其他方式联系我们时，
+      我们可能处理用户主动提供的联系方式、问题描述、截图、日志或其他反馈材料，
+      仅用于回复、定位和解决相关问题。
+    </p>
 
-  <h2>二、权限使用说明</h2>
-  <p>
-    本游戏仅申请实现具体功能所必要的系统权限。多人联机功能需要网络访问能力。
-    当前版本不主动申请与游戏功能无关的相机、麦克风、通讯录或精确位置等权限。
-    如后续版本新增需要其他权限的功能，我们将结合实际功能说明使用目的，并遵循最小必要原则。
-  </p>
+    <p><strong>4. 第三方平台或 SDK</strong></p>
+    <p>
+      当前独立发行版本未接入广告 SDK、第三方登录 SDK 或统计分析 SDK。
+      若未来版本接入新的第三方 SDK 或服务，我们会根据实际启用的功能更新本政策，
+      并说明相关服务提供方、用途及可能处理的信息类型。
+    </p>
 
-  <h2>三、信息的存储</h2>
-  <p>
-    本地存档、设置及本地账户数据通常存储在用户自己的设备中。
-    用户可以通过游戏提供的功能或操作系统提供的方式删除本地数据。
-  </p>
-  <p>
-    对于因多人联机而产生的网络通信信息，我们仅在实现相应连接和服务所必需的期限内处理；
-    法律法规另有规定的除外。
-  </p>
+    <h2>二、权限使用说明</h2>
+    <p>
+      本游戏仅使用实现具体功能所必要的系统能力。多人联机功能需要网络访问能力。
+      当前版本不主动申请与游戏功能无关的相机、麦克风、通讯录或精确位置等权限。
+      若未来新增需要其他权限的功能，我们会说明相应使用目的。
+    </p>
 
-  <h2>四、信息的共享、转让与公开披露</h2>
-  <p>
-    除以下情形外，我们不会向无关第三方出售用户个人信息，也不会无正当理由公开披露用户个人信息：
-  </p>
-  <ul>
-    <li>取得用户明确同意；</li>
-    <li>为提供用户主动选择的第三方平台功能所必需；</li>
-    <li>根据适用法律法规、司法程序或有权机关依法提出的要求；</li>
-    <li>法律法规允许的其他情形。</li>
-  </ul>
+    <h2>三、信息的存储</h2>
+    <p>
+      本地存档、设置及本地账户数据通常存储在用户自己的设备中。
+      用户可以通过游戏提供的功能或操作系统的数据管理功能删除本地数据。
+    </p>
+    <p>
+      因多人联机产生的网络通信信息，仅在实现相应连接和服务所必要的范围及期限内处理；
+      法律法规另有规定的除外。
+    </p>
 
-  <h2>五、信息安全</h2>
-  <p>
-    我们会根据游戏规模和数据处理方式采取合理的技术与管理措施保护用户信息，
-    尽量防止未经授权的访问、泄露、篡改、丢失或滥用。
-    但请理解，任何网络和信息系统均无法保证绝对安全。
-  </p>
+    <h2>四、信息的共享、转让与公开披露</h2>
+    <p>除以下情形外，我们不会向无关第三方出售用户个人信息，也不会无正当理由公开披露用户个人信息：</p>
+    <ul>
+      <li>取得用户明确同意；</li>
+      <li>为提供用户主动选择的第三方平台功能所必要；</li>
+      <li>根据适用法律法规、司法程序或有权机关依法提出的要求；</li>
+      <li>法律法规允许的其他情形。</li>
+    </ul>
 
-  <h2>六、用户的权利</h2>
-  <p>
-    在适用法律法规规定的范围内，用户可以对其个人信息提出查阅、复制、更正、删除、
-    撤回同意、限制或拒绝处理等请求。对于仅保存在用户设备本地的数据，
-    用户通常可以直接在游戏内或通过系统应用数据管理功能进行删除。
-  </p>
-  <p>
-    如需我们协助处理相关请求，请通过本政策“联系我们”中的方式与我们联系。
-  </p>
+    <h2>五、信息安全</h2>
+    <p>
+      我们会根据游戏规模和数据处理方式采取合理的技术与管理措施保护用户信息，
+      尽量防止未经授权的访问、泄露、篡改、丢失或滥用。
+      但任何网络和信息系统均无法保证绝对安全。
+    </p>
 
-  <h2>七、未成年人保护</h2>
-  <p>
-    我们重视未成年人的个人信息保护。未成年人应在监护人的指导和同意下使用本游戏及相关服务。
-    如我们发现未经适当授权处理了未成年人的个人信息，将依法采取删除或其他必要措施。
-  </p>
+    <h2>六、用户的权利</h2>
+    <p>
+      在适用法律法规规定的范围内，用户可以对其个人信息提出查阅、复制、更正、删除、
+      撤回同意、限制或拒绝处理等请求。对于仅保存在用户设备本地的数据，
+      用户通常可以直接在游戏内或通过操作系统的数据管理功能进行删除。
+    </p>
+    <p>
+      如需我们协助处理相关请求，请通过本政策“联系我们”中的方式与我们联系。
+    </p>
 
-  <h2>八、第三方服务清单</h2>
-  <p>
-    当前版本未接入需要在本政策中单独列明的第三方 SDK。
-    若未来接入第三方登录、统计、云存档、支付、广告、更新或其他服务，
-    我们会在正式启用前根据实际情况更新本清单及相关说明。
-  </p>
+    <h2>七、未成年人保护</h2>
+    <p>
+      我们重视未成年人的隐私与个人信息保护。未成年人应在监护人的指导下使用本游戏及相关服务。
+      如适用法律要求取得监护人同意，我们将按照相应要求处理。
+    </p>
 
-  <h2>九、本政策的更新</h2>
-  <p>
-    随着游戏功能、第三方服务或法律法规发生变化，我们可能更新本隐私政策。
-    对于涉及用户权益的重大变化，我们将通过适当方式提示用户，并在依法需要时重新取得用户同意。
-  </p>
+    <h2>八、第三方服务清单</h2>
+    <p>
+      当前独立发行版本未接入需要在本政策中单独列明的第三方 SDK。
+      若未来接入第三方登录、统计、云存档、支付、广告、更新或其他服务，
+      我们会根据实际情况更新本清单。
+    </p>
 
-  <h2>十、联系我们</h2>
-  <p>
-    开发者/运营主体：<span class="placeholder">5923工作室</span><br>
-    联系邮箱：<span class="placeholder">3829278032@qq.com</span><br>
-  </p>
-  <p>
-    我们将在核实请求人身份后，在适用法律法规要求的期限内处理相关请求。
-  </p>
+    <h2>九、本政策的更新</h2>
+    <p>
+      随着游戏功能、第三方服务或适用规则发生变化，我们可能更新本隐私政策。
+      重大变化会通过适当方式进行提示。
+    </p>
 
-  <footer>
-    © 2026 《装甲战场》开发者。保留所有权利。
-  </footer>
+    <h2>十、联系我们</h2>
+    <p>
+      开发者/运营主体：<span class="name">5923工作室</span><br>
+      联系邮箱：<span class="name">3829278032@qq.com</span>
+    </p>
+
+    <footer>© 2026 5923工作室 / 《装甲战场》</footer>
+  </article>
+
+  <article id="policy-en" lang="en" hidden>
+    <h1>Armored Battlefield Privacy Policy</h1>
+    <div class="meta">Updated: August 10, 2026 | Effective: August 10, 2026</div>
+
+    <p>
+      Welcome to <strong>Armored Battlefield</strong> (the “Game”). This Privacy Policy is provided by
+      <span class="name">5923 Studio</span> (“we”, “us”, or “our”) and explains how information is handled
+      when the Game provides gameplay, local save data, multiplayer networking, and related functions.
+    </p>
+    <p>
+      We process information only to the extent reasonably necessary to provide the relevant game features.
+      If future versions add features that require additional information processing, this policy will be updated accordingly.
+    </p>
+
+    <h2>1. Information We Process and Why</h2>
+
+    <p><strong>1.1 Local game data</strong></p>
+    <p>
+      To preserve progress and preferences, the Game may store data locally on your device, including your nickname,
+      game settings, control bindings, graphics and audio settings, vehicles, achievements, mastery/progression data,
+      and other local save information. This data is primarily used to restore your game state and provide normal gameplay functions.
+    </p>
+
+    <p><strong>1.2 Network information required for multiplayer</strong></p>
+    <p>
+      When you choose to use multiplayer features, establishing and maintaining a game session may involve IP addresses,
+      ports, connection status, session identifiers, and gameplay synchronization data required for networking.
+      Such information is processed only as needed to provide multiplayer functionality.
+    </p>
+
+    <p><strong>1.3 Information you voluntarily provide</strong></p>
+    <p>
+      If you contact us by email, through a game-platform comment section, or by another feedback channel,
+      we may process the contact information, problem descriptions, screenshots, logs, or other materials that you voluntarily provide.
+      We use this information only to respond to feedback, diagnose issues, and provide support.
+    </p>
+
+    <p><strong>1.4 Third-party platforms and SDKs</strong></p>
+    <p>
+      The current independently distributed version does not include advertising SDKs, third-party login SDKs,
+      or analytics SDKs. If a future version introduces third-party SDKs or services, we will update this policy
+      to identify the relevant provider, purpose, and categories of information involved.
+    </p>
+
+    <h2>2. Device Permissions</h2>
+    <p>
+      The Game uses only system capabilities necessary for its features. Multiplayer networking requires network access.
+      The current version does not intentionally request unrelated access to your camera, microphone, contacts,
+      or precise location. If future features require additional permissions, their purposes will be explained.
+    </p>
+
+    <h2>3. Storage of Information</h2>
+    <p>
+      Local saves, settings, and local account data are generally stored on your own device.
+      You may delete local data using in-game functions where available or through your operating system's application-data controls.
+    </p>
+    <p>
+      Network information generated during multiplayer sessions is processed only to the extent and for the period needed
+      to provide the relevant connection and service, unless applicable law requires otherwise.
+    </p>
+
+    <h2>4. Sharing, Transfer, and Public Disclosure</h2>
+    <p>We do not sell users' personal information to unrelated third parties. We do not publicly disclose personal information without a valid reason, except where:</p>
+    <ul>
+      <li>you have given explicit consent;</li>
+      <li>it is necessary to provide a third-party platform feature you actively choose to use;</li>
+      <li>it is required by applicable law, legal process, or a lawful request from a competent authority; or</li>
+      <li>otherwise permitted by applicable law.</li>
+    </ul>
+
+    <h2>5. Information Security</h2>
+    <p>
+      We take reasonable technical and organizational measures appropriate to the scale of the Game and the information processed
+      to reduce the risk of unauthorized access, disclosure, alteration, loss, or misuse.
+      However, no network or information system can be guaranteed to be completely secure.
+    </p>
+
+    <h2>6. Your Rights</h2>
+    <p>
+      Subject to applicable law, you may have rights to request access, copies, correction, deletion, withdrawal of consent,
+      restriction of processing, or objection to certain processing. For information stored only on your device,
+      you can generally delete it directly in the Game or through your operating system's application-data controls.
+    </p>
+    <p>
+      If you need assistance with a privacy-related request, please contact us using the information in the “Contact Us” section below.
+    </p>
+
+    <h2>7. Children and Minors</h2>
+    <p>
+      We take the privacy of children and minors seriously. Minors should use the Game under the guidance of a parent or guardian.
+      Where applicable law requires parental or guardian consent, we will handle information in accordance with those requirements.
+    </p>
+
+    <h2>8. Third-Party Services</h2>
+    <p>
+      The current independently distributed version does not include third-party SDKs that require separate disclosure in this policy.
+      If future versions add third-party login, analytics, cloud saves, payments, advertising, updating, or other services,
+      this section will be updated to reflect the actual integrations.
+    </p>
+
+    <h2>9. Changes to This Policy</h2>
+    <p>
+      We may update this Privacy Policy when game features, third-party services, or applicable requirements change.
+      Material changes will be communicated through an appropriate notice.
+    </p>
+
+    <h2>10. Contact Us</h2>
+    <p>
+      Developer / Operator: <span class="name">5923 Studio</span><br>
+      Contact email: <span class="name">3829278032@qq.com</span>
+    </p>
+
+    <footer>© 2026 5923 Studio / Armored Battlefield</footer>
+  </article>
 </main>
+
+<script>
+(function () {
+  const stored = localStorage.getItem("privacy_language");
+  const browser = (navigator.language || "").toLowerCase();
+  const initial = stored || (browser.startsWith("zh") ? "zh" : "en");
+  setLanguage(initial);
+})();
+
+function setLanguage(lang) {
+  const zh = lang !== "en";
+  document.getElementById("policy-zh").hidden = !zh;
+  document.getElementById("policy-en").hidden = zh;
+  document.getElementById("btn-zh").classList.toggle("active", zh);
+  document.getElementById("btn-en").classList.toggle("active", !zh);
+  document.documentElement.lang = zh ? "zh-CN" : "en";
+  document.title = zh
+    ? "《装甲战场》隐私政策"
+    : "Armored Battlefield Privacy Policy";
+  localStorage.setItem("privacy_language", zh ? "zh" : "en");
+}
+</script>
 </body>
 </html>
