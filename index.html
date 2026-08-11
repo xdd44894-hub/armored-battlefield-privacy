@@ -1,326 +1,128 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="index,follow">
-  <title>《装甲战场》隐私政策 / Armored Battlefield Privacy Policy</title>
-  <style>
-    :root{
-      --bg:#0e1513;
-      --panel:#151f1b;
-      --text:#e7ece8;
-      --muted:#aeb8b1;
-      --line:#2a3931;
-      --accent:#a5b28a;
-    }
-    *{box-sizing:border-box}
-    body{
-      margin:0;
-      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",Arial,sans-serif;
-      background:var(--bg);
-      color:var(--text);
-      line-height:1.8;
-    }
-    main{
-      max-width:920px;
-      margin:0 auto;
-      padding:30px 22px 72px;
-    }
-    .langbar{
-      display:flex;
-      justify-content:flex-end;
-      gap:10px;
-      margin-bottom:24px;
-    }
-    .langbar button{
-      appearance:none;
-      border:1px solid var(--line);
-      background:var(--panel);
-      color:var(--text);
-      padding:9px 16px;
-      border-radius:8px;
-      font-size:15px;
-      cursor:pointer;
-    }
-    .langbar button.active{
-      border-color:var(--accent);
-      color:#dce8c8;
-    }
-    h1,h2{line-height:1.35}
-    h1{font-size:30px;margin:0 0 8px}
-    h2{
-      font-size:21px;
-      margin:34px 0 10px;
-      border-bottom:1px solid var(--line);
-      padding-bottom:8px;
-    }
-    p,li{font-size:16px}
-    .meta{color:var(--muted);margin-bottom:24px}
-    .name{color:#c8d7b0;font-weight:700}
-    footer{margin-top:44px;color:var(--muted);font-size:14px}
-    [hidden]{display:none!important}
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#0e1513">
+<title>《装甲战场》隐私政策 / Armored Battlefield Privacy Policy</title>
+<style>
+:root{--bg:#0e1513;--panel:#151f1b;--panel2:#111915;--text:#e7ece8;--muted:#aeb8b1;--line:#2a3931;--accent:#a5b28a;--warn:#d9bd78;--ok:#9fc69e}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei","Noto Sans JP","Noto Sans",Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.72}main{max-width:1080px;margin:auto;padding:26px 20px 76px}.topbar{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:20px}.brand{font-weight:800;color:#d7e1d0}.langbar{display:flex;gap:8px;flex-wrap:wrap}.langbar button{appearance:none;border:1px solid var(--line);background:var(--panel);color:var(--text);padding:9px 14px;border-radius:9px;font-size:14px;cursor:pointer}.langbar button.active{border-color:var(--accent);color:#e2edcf;background:#1b2821}.hero{border:1px solid var(--line);background:linear-gradient(180deg,#17221d,#111915);border-radius:15px;padding:24px;margin-bottom:22px}h1,h2,h3{line-height:1.35}h1{font-size:30px;margin:0 0 8px}h2{font-size:21px;margin:34px 0 12px;border-bottom:1px solid var(--line);padding-bottom:9px}h3{font-size:17px;margin:22px 0 8px;color:#d5dfd6}p,li,td,th{font-size:15.5px}.meta,.muted{color:var(--muted)}.name{color:#c8d7b0;font-weight:700}.summary-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:18px 0 4px}.summary-card{background:var(--panel2);border:1px solid var(--line);border-radius:11px;padding:13px 15px}.summary-card strong{display:block;color:#dfe8d5;margin-bottom:3px}.toc{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:18px 0}.toc a{color:#c9d7bc;text-decoration:none;margin-right:14px;white-space:nowrap}.notice{border-left:4px solid var(--warn);background:#1a1c16;padding:12px 14px;border-radius:5px;margin:14px 0}.good{border-left-color:var(--ok);background:#142018}.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;margin:12px 0 18px}table{width:100%;border-collapse:collapse;min-width:760px;background:#121a16}th,td{padding:11px 12px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}th{background:#19241e;color:#dce6dd;font-weight:700}tr:last-child td{border-bottom:0}code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;background:#101713;padding:2px 5px;border-radius:4px;color:#cbd9c3}a{color:#bcd1ad}footer{margin-top:44px;color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding-top:18px}[hidden]{display:none!important}@media(max-width:700px){main{padding:18px 14px 60px}.hero{padding:18px}h1{font-size:26px}.summary-grid{grid-template-columns:1fr}.langbar{width:100%}.langbar button{flex:1}}@media print{body{background:#fff;color:#111}.langbar,.brand{display:none}.hero,.toc,.summary-card,.table-wrap,table,th{background:#fff;border-color:#ccc}a{color:#111}}
+</style>
 </head>
-<body>
-<main>
-  <div class="langbar" aria-label="Language">
-    <button id="btn-zh" type="button" onclick="setLanguage('zh')">中文</button>
-    <button id="btn-en" type="button" onclick="setLanguage('en')">English</button>
-  </div>
-
-  <article id="policy-zh">
-    <h1>《装甲战场》隐私政策</h1>
-    <div class="meta">更新日期：2026年8月10日　|　生效日期：2026年8月10日</div>
-
-    <p>
-      欢迎使用《装甲战场》（以下简称“本游戏”）。本隐私政策由
-      <span class="name">5923工作室</span>
-      （以下简称“我们”）制定，用于说明本游戏在提供游戏运行、本地存档、多人联机等功能时，
-      如何处理与保护用户信息。
-    </p>
-    <p>
-      我们仅在实现相应游戏功能所必要的范围内处理信息。
-      若未来版本新增需要处理其他信息的功能，我们会相应更新本政策。
-    </p>
-
-    <h2>一、我们处理的信息及用途</h2>
-
-    <p><strong>1. 本地游戏数据</strong></p>
-    <p>
-      为保存游戏进度和使用偏好，本游戏可能在用户设备本地保存昵称、游戏设置、按键设置、
-      画面与音频设置、载具、成就、熟练度以及其他游戏进度信息。
-      这些数据主要用于恢复游戏状态并提供正常游戏功能。
-    </p>
-
-    <p><strong>2. 多人联机所需的网络信息</strong></p>
-    <p>
-      当用户主动使用多人联机功能时，为建立连接、同步战局、维持会话及排查连接故障，
-      网络通信可能涉及 IP 地址、端口、连接状态、会话标识以及必要的游戏同步数据。
-      这些信息仅在实现多人联机功能所必要的范围内处理。
-    </p>
-
-    <p><strong>3. 用户主动提供的信息</strong></p>
-    <p>
-      当用户主动通过电子邮件、游戏平台评论区或其他方式联系我们时，
-      我们可能处理用户主动提供的联系方式、问题描述、截图、日志或其他反馈材料，
-      仅用于回复、定位和解决相关问题。
-    </p>
-
-    <p><strong>4. 第三方平台或 SDK</strong></p>
-    <p>
-      当前独立发行版本未接入广告 SDK、第三方登录 SDK 或统计分析 SDK。
-      若未来版本接入新的第三方 SDK 或服务，我们会根据实际启用的功能更新本政策，
-      并说明相关服务提供方、用途及可能处理的信息类型。
-    </p>
-
-    <h2>二、权限使用说明</h2>
-    <p>
-      本游戏仅使用实现具体功能所必要的系统能力。多人联机功能需要网络访问能力。
-      当前版本不主动申请与游戏功能无关的相机、麦克风、通讯录或精确位置等权限。
-      若未来新增需要其他权限的功能，我们会说明相应使用目的。
-    </p>
-
-    <h2>三、信息的存储</h2>
-    <p>
-      本地存档、设置及本地账户数据通常存储在用户自己的设备中。
-      用户可以通过游戏提供的功能或操作系统的数据管理功能删除本地数据。
-    </p>
-    <p>
-      因多人联机产生的网络通信信息，仅在实现相应连接和服务所必要的范围及期限内处理；
-      法律法规另有规定的除外。
-    </p>
-
-    <h2>四、信息的共享、转让与公开披露</h2>
-    <p>除以下情形外，我们不会向无关第三方出售用户个人信息，也不会无正当理由公开披露用户个人信息：</p>
-    <ul>
-      <li>取得用户明确同意；</li>
-      <li>为提供用户主动选择的第三方平台功能所必要；</li>
-      <li>根据适用法律法规、司法程序或有权机关依法提出的要求；</li>
-      <li>法律法规允许的其他情形。</li>
-    </ul>
-
-    <h2>五、信息安全</h2>
-    <p>
-      我们会根据游戏规模和数据处理方式采取合理的技术与管理措施保护用户信息，
-      尽量防止未经授权的访问、泄露、篡改、丢失或滥用。
-      但任何网络和信息系统均无法保证绝对安全。
-    </p>
-
-    <h2>六、用户的权利</h2>
-    <p>
-      在适用法律法规规定的范围内，用户可以对其个人信息提出查阅、复制、更正、删除、
-      撤回同意、限制或拒绝处理等请求。对于仅保存在用户设备本地的数据，
-      用户通常可以直接在游戏内或通过操作系统的数据管理功能进行删除。
-    </p>
-    <p>
-      如需我们协助处理相关请求，请通过本政策“联系我们”中的方式与我们联系。
-    </p>
-
-    <h2>七、未成年人保护</h2>
-    <p>
-      我们重视未成年人的隐私与个人信息保护。未成年人应在监护人的指导下使用本游戏及相关服务。
-      如适用法律要求取得监护人同意，我们将按照相应要求处理。
-    </p>
-
-    <h2>八、第三方服务清单</h2>
-    <p>
-      当前独立发行版本未接入需要在本政策中单独列明的第三方 SDK。
-      若未来接入第三方登录、统计、云存档、支付、广告、更新或其他服务，
-      我们会根据实际情况更新本清单。
-    </p>
-
-    <h2>九、本政策的更新</h2>
-    <p>
-      随着游戏功能、第三方服务或适用规则发生变化，我们可能更新本隐私政策。
-      重大变化会通过适当方式进行提示。
-    </p>
-
-    <h2>十、联系我们</h2>
-    <p>
-      开发者/运营主体：<span class="name">5923工作室</span><br>
-      联系邮箱：<span class="name">3829278032@qq.com</span>
-    </p>
-
-    <footer>© 2026 5923工作室 / 《装甲战场》</footer>
-  </article>
-
-  <article id="policy-en" lang="en" hidden>
-    <h1>Armored Battlefield Privacy Policy</h1>
-    <div class="meta">Updated: August 10, 2026 | Effective: August 10, 2026</div>
-
-    <p>
-      Welcome to <strong>Armored Battlefield</strong> (the “Game”). This Privacy Policy is provided by
-      <span class="name">5923 Studio</span> (“we”, “us”, or “our”) and explains how information is handled
-      when the Game provides gameplay, local save data, multiplayer networking, and related functions.
-    </p>
-    <p>
-      We process information only to the extent reasonably necessary to provide the relevant game features.
-      If future versions add features that require additional information processing, this policy will be updated accordingly.
-    </p>
-
-    <h2>1. Information We Process and Why</h2>
-
-    <p><strong>1.1 Local game data</strong></p>
-    <p>
-      To preserve progress and preferences, the Game may store data locally on your device, including your nickname,
-      game settings, control bindings, graphics and audio settings, vehicles, achievements, mastery/progression data,
-      and other local save information. This data is primarily used to restore your game state and provide normal gameplay functions.
-    </p>
-
-    <p><strong>1.2 Network information required for multiplayer</strong></p>
-    <p>
-      When you choose to use multiplayer features, establishing and maintaining a game session may involve IP addresses,
-      ports, connection status, session identifiers, and gameplay synchronization data required for networking.
-      Such information is processed only as needed to provide multiplayer functionality.
-    </p>
-
-    <p><strong>1.3 Information you voluntarily provide</strong></p>
-    <p>
-      If you contact us by email, through a game-platform comment section, or by another feedback channel,
-      we may process the contact information, problem descriptions, screenshots, logs, or other materials that you voluntarily provide.
-      We use this information only to respond to feedback, diagnose issues, and provide support.
-    </p>
-
-    <p><strong>1.4 Third-party platforms and SDKs</strong></p>
-    <p>
-      The current independently distributed version does not include advertising SDKs, third-party login SDKs,
-      or analytics SDKs. If a future version introduces third-party SDKs or services, we will update this policy
-      to identify the relevant provider, purpose, and categories of information involved.
-    </p>
-
-    <h2>2. Device Permissions</h2>
-    <p>
-      The Game uses only system capabilities necessary for its features. Multiplayer networking requires network access.
-      The current version does not intentionally request unrelated access to your camera, microphone, contacts,
-      or precise location. If future features require additional permissions, their purposes will be explained.
-    </p>
-
-    <h2>3. Storage of Information</h2>
-    <p>
-      Local saves, settings, and local account data are generally stored on your own device.
-      You may delete local data using in-game functions where available or through your operating system's application-data controls.
-    </p>
-    <p>
-      Network information generated during multiplayer sessions is processed only to the extent and for the period needed
-      to provide the relevant connection and service, unless applicable law requires otherwise.
-    </p>
-
-    <h2>4. Sharing, Transfer, and Public Disclosure</h2>
-    <p>We do not sell users' personal information to unrelated third parties. We do not publicly disclose personal information without a valid reason, except where:</p>
-    <ul>
-      <li>you have given explicit consent;</li>
-      <li>it is necessary to provide a third-party platform feature you actively choose to use;</li>
-      <li>it is required by applicable law, legal process, or a lawful request from a competent authority; or</li>
-      <li>otherwise permitted by applicable law.</li>
-    </ul>
-
-    <h2>5. Information Security</h2>
-    <p>
-      We take reasonable technical and organizational measures appropriate to the scale of the Game and the information processed
-      to reduce the risk of unauthorized access, disclosure, alteration, loss, or misuse.
-      However, no network or information system can be guaranteed to be completely secure.
-    </p>
-
-    <h2>6. Your Rights</h2>
-    <p>
-      Subject to applicable law, you may have rights to request access, copies, correction, deletion, withdrawal of consent,
-      restriction of processing, or objection to certain processing. For information stored only on your device,
-      you can generally delete it directly in the Game or through your operating system's application-data controls.
-    </p>
-    <p>
-      If you need assistance with a privacy-related request, please contact us using the information in the “Contact Us” section below.
-    </p>
-
-    <h2>7. Children and Minors</h2>
-    <p>
-      We take the privacy of children and minors seriously. Minors should use the Game under the guidance of a parent or guardian.
-      Where applicable law requires parental or guardian consent, we will handle information in accordance with those requirements.
-    </p>
-
-    <h2>8. Third-Party Services</h2>
-    <p>
-      The current independently distributed version does not include third-party SDKs that require separate disclosure in this policy.
-      If future versions add third-party login, analytics, cloud saves, payments, advertising, updating, or other services,
-      this section will be updated to reflect the actual integrations.
-    </p>
-
-    <h2>9. Changes to This Policy</h2>
-    <p>
-      We may update this Privacy Policy when game features, third-party services, or applicable requirements change.
-      Material changes will be communicated through an appropriate notice.
-    </p>
-
-    <h2>10. Contact Us</h2>
-    <p>
-      Developer / Operator: <span class="name">5923 Studio</span><br>
-      Contact email: <span class="name">3829278032@qq.com</span>
-    </p>
-
-    <footer>© 2026 5923 Studio / Armored Battlefield</footer>
-  </article>
+<body><main>
+<div class="topbar"><div class="brand">Armored Battlefield · 5923 Studio</div><div class="langbar" aria-label="Language"><button id="btn-zh" onclick="setLanguage('zh')">简体中文</button><button id="btn-en" onclick="setLanguage('en')">English</button><button id="btn-ja" onclick="setLanguage('ja')">日本語</button><button id="btn-ru" onclick="setLanguage('ru')">Русский</button></div></div>
+<article id="policy-zh">
+<section class="hero"><h1>《装甲战场》隐私政策</h1><div class="meta">版本：2.0｜更新日期：2026年8月11日｜生效日期：2026年8月11日</div><p>本政策由 <span class="name">5923工作室</span>（“我们”）制定，说明《装甲战场》（“本游戏”）在 Windows、Android、网页客户端及多人联机功能中如何处理信息。</p><div class="summary-grid"><div class="summary-card"><strong>不做广告追踪</strong>当前版本不包含广告 SDK、行为分析 SDK 或第三方登录 SDK。</div><div class="summary-card"><strong>大部分数据留在本机</strong>设置、存档、本地账号、成就、熟练度、皮肤等主要保存在你的设备或浏览器本地。</div><div class="summary-card"><strong>联机需要网络信息</strong>加入房间时会处理 IP、端口、会话标识及战局同步数据，房主设备可能看到连接者的网络地址。</div><div class="summary-card"><strong>不出售个人信息</strong>我们不会出售你的个人信息；第三方发行/托管平台按其自己的隐私政策独立处理数据。</div></div></section>
+<nav class="toc"><strong>快速目录：</strong><a href="#zh-1">信息清单</a><a href="#zh-2">处理目的</a><a href="#zh-3">联机</a><a href="#zh-4">保存期限</a><a href="#zh-5">第三方</a><a href="#zh-6">你的权利</a><a href="#zh-7">未成年人</a></nav>
+<h2 id="zh-1">一、我们处理的信息：具体清单</h2><p>我们遵循“最小必要”原则。不同平台和功能涉及的信息不同，并非每位玩家都会产生下列全部信息。</p>
+<div class="table-wrap"><table><thead><tr><th>类别</th><th>可能包含的信息</th><th>主要存放位置</th><th>用途</th></tr></thead><tbody>
+<tr><td>本地设置与档案</td><td>昵称、语言、教程/引导状态、音频、画面、HUD透明度、粒子密度、操控方式、灵敏度、按键与触控布局、技能配置、已选车辆皮肤等</td><td>你的设备本地</td><td>恢复设置、提供游戏功能</td></tr>
+<tr><td>本地账号安全数据</td><td>本地账号ID、昵称、PIN的盐值与哈希、经哈希/派生处理的设备标识、受信任设备列表、创建时间、昵称修改时间</td><td>本地加密档案文件</td><td>保护本地/可携带档案、避免新设备无验证直接继承账号</td></tr>
+<tr><td>游戏进度与资产</td><td>熟练度XP、成就进度与解锁、皮肤、弹道特效、装饰、击杀/胜场等本地统计</td><td>你的设备本地</td><td>保存进度、解锁装饰内容</td></tr>
+<tr><td>网页客户端本地存储</td><td>玩家名、语言、按键、HUD/性能/操控偏好、皮肤与成就状态、近期事件指纹、隐私同意标记、用于重连的网页会话令牌</td><td>浏览器 <code>localStorage</code></td><td>记住设置、避免重复统计、支持重连与隐私同意状态</td></tr>
+<tr><td>多人联机数据</td><td>IP地址、端口、连接状态、会话标识/令牌、昵称、车辆/皮肤/技能配置，以及位置、方向、速度、生命/装甲、输入、炮弹、命中、击杀及其他必要战局同步数据</td><td>房主设备、参与联机的客户端内存及网络传输过程</td><td>建立连接、同步战局、维护房间和排查连接问题</td></tr>
+<tr><td>你主动提交的反馈</td><td>邮箱地址、邮件正文、问题描述、截图、日志、附件及你主动提供的其他信息</td><td>我们的支持邮箱及相关邮件服务</td><td>回复反馈、定位错误、安全和争议处理</td></tr>
+<tr><td>隐私政策网页数据</td><td>政策语言偏好会保存在浏览器本地；GitHub Pages会为安全目的记录访问者IP</td><td>浏览器本地；GitHub Pages基础设施</td><td>记住语言；由托管方维护安全</td></tr>
+</tbody></table></div>
+<div class="notice good"><strong>PIN说明：</strong>本地账号不会把PIN明文写入档案，而是使用盐值和哈希进行验证；设备识别值也会经过派生/哈希处理。你的本地档案文件仍属于安全相关数据，应妥善保护。</div>
+<h2 id="zh-2">二、处理目的、方式与依据</h2><p>我们主要通过本地存储、运行内存处理和玩家主动发起的网络通信处理信息，不建立以广告画像为目的的中央用户数据库。</p><ul><li><strong>提供游戏与保存进度：</strong>处理本地设置、账号档案和进度，是实现你主动使用的功能所必要。</li><li><strong>提供多人联机：</strong>创建或加入房间时，处理网络地址、会话信息和战局同步数据，是建立并维持连接所必要。</li><li><strong>提供客服与反馈：</strong>你主动联系时，我们基于你的请求处理邮件及附件。</li><li><strong>安全、反滥用和争议处理：</strong>在必要时基于保护玩家、游戏服务和合法权益的需要处理有限信息，或履行适用法律义务。</li></ul><p>如欧盟/欧洲经济区或英国的数据保护规则适用，处理依据可能包括履行你请求的服务/合同所必要、你的同意、我们的合法利益（如安全与故障排查）以及法律义务。</p>
+<h2 id="zh-3">三、多人联机与房主可见信息</h2><p>当前多人功能以玩家房主设备为连接与同步节点。你主动加入房间时，你的设备会与房主建立网络连接。</p><ul><li>IP地址、端口和连接状态可能对房主设备、操作系统、路由器或网络服务可见。</li><li>房主和其他玩家会接收到完成比赛所需的昵称、车辆/皮肤/技能、位置、生命、动作、命中、击杀等战局数据。</li><li>我们当前不运营用于长期集中保存完整对局历史的公共云游戏账号服务器；游戏默认不会把完整对局日志上传给5923工作室。</li><li>如果你连接到另一个国家或地区的房主，必要网络数据可能随正常网络路由跨境传输。</li></ul><div class="notice">请勿把私人密码、真实姓名、住址、联系方式等不必要信息填写在公开昵称或其他玩家可见字段中。</div>
+<h2>四、设备权限</h2><p>当前版本需要网络访问以提供多人联机和网页连接。游戏不会主动申请与当前功能无关的相机、麦克风、通讯录或精确位置权限。应用沙盒/文件存储用于保存本地设置和档案。</p>
+<h2 id="zh-4">五、保存期限与删除方式</h2><div class="table-wrap"><table><thead><tr><th>数据</th><th>保存期限/确定方式</th><th>删除方式</th></tr></thead><tbody><tr><td>Windows/Android本地设置、档案、进度</td><td>保留至你删除档案、清除应用数据或卸载并删除应用数据；你自行制作的备份会保留到你删除该备份</td><td>游戏内相关功能（如提供）、系统应用数据管理或删除对应Godot用户数据目录</td></tr><tr><td>浏览器本地数据</td><td>保留至你清除站点数据/浏览器存储</td><td>浏览器“清除网站数据/本地存储”</td></tr><tr><td>网页会话令牌</td><td>本地副本可能保留以便重连，直到被覆盖或清除；房主端只在相应会话有效期内接受</td><td>会话失效后不再可用；清除站点数据可删除本地副本</td></tr><tr><td>实时战局/连接状态</td><td>原则上仅在房间、对局或连接存续期间于运行内存处理</td><td>退出房间、断开连接或程序结束后释放；法律另有要求除外</td></tr><tr><td>客服/反馈邮件</td><td>通常在问题解决或最后一次沟通后不超过12个月；安全事件、争议或法律义务所需时可在必要期限内保留</td><td>到期删除或去标识化；法律要求继续保存的除外</td></tr><tr><td>隐私同意标记</td><td>保留到你清除本地数据，或我们更新政策版本并要求重新确认</td><td>清除应用/网站本地数据</td></tr><tr><td>itch.io / GitHub Pages平台数据</td><td>由相应平台按其隐私政策决定</td><td>通过平台隐私工具或联系方式处理</td></tr></tbody></table></div>
+<h2 id="zh-5">六、共享、接收方与第三方服务</h2><p>我们不会出售个人信息，也不会把游戏数据提供给广告商。仅在提供你主动使用的功能、履行法律义务或保护合法权益所必要时进行有限共享。</p><div class="table-wrap"><table><thead><tr><th>接收方/服务</th><th>用途</th><th>可能处理的信息</th><th>与游戏的关系</th></tr></thead><tbody><tr><td>其他玩家/房主设备</td><td>多人联机</td><td>IP/端口（主要由房主网络层看到）、昵称、会话与必要战局同步数据</td><td>玩家主动选择的房主/点对点连接</td></tr><tr><td>itch.io / Itch Corp.</td><td>游戏页面、发行、下载及网页托管（如使用）</td><td>由itch.io独立收集的账户、访问、设备、下载等信息</td><td>独立第三方平台；不属于游戏内分析SDK</td></tr><tr><td>GitHub Pages / GitHub</td><td>托管本隐私政策网页</td><td>GitHub官方说明其会为安全目的记录Pages访问者IP，并按其隐私声明处理相关网站数据</td><td>独立第三方托管平台</td></tr><tr><td>QQ邮箱/邮件服务提供方</td><td>接收玩家主动发送的支持邮件</td><td>邮箱地址、邮件正文、附件及邮件元数据</td><td>仅在你主动通过邮箱联系我们时涉及</td></tr></tbody></table></div><p>第三方平台拥有自己的隐私规则和保存期限。你可以查看：<a href="https://itch.io/docs/legal/privacy-policy" target="_blank" rel="noopener noreferrer">itch.io Privacy Policy</a>、<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub Privacy Statement</a> 和 <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages" target="_blank" rel="noopener noreferrer">GitHub Pages数据收集说明</a>。</p>
+<h2>七、Cookie、广告、分析与自动化决策</h2><ul><li>当前游戏自身不包含广告SDK、第三方登录SDK、行为分析SDK，也不进行跨站广告追踪。</li><li>网页客户端主要使用浏览器本地存储保存游戏设置，而不是以广告追踪为目的设置Cookie。</li><li>第三方托管/发行平台可能按其自身规则使用Cookie或类似技术。</li><li>我们当前不会基于个人信息进行对你产生法律效果或类似重大影响的自动化决策或画像。</li></ul>
+<h2>八、信息安全与安全事件</h2><p>我们会结合当前游戏规模采取合理措施，包括本地档案加密、PIN哈希验证、设备标识派生/哈希、会话令牌和最小化保存等。网络通信和终端设备仍可能受到恶意软件、弱密码、恶意房主、不安全网络或系统漏洞影响，任何系统都无法保证绝对安全。</p><p>如发生或可能发生个人信息泄露、篡改、丢失等安全事件，我们会在能力和适用法律要求范围内采取调查、限制影响、修复、删除/重置凭证等措施，并在法律要求时通知受影响用户或主管机关。</p>
+<h2 id="zh-6">九、你的权利与如何操作</h2><p>在适用法律范围内，你可以要求查阅、复制、更正、补充、删除、限制处理、撤回同意，或在符合法律条件时请求转移个人信息。由于绝大多数数据只在你的设备上，我们通常并不持有其服务器副本。</p><ul><li><strong>删除本地游戏数据：</strong>使用游戏内相关功能（如提供）、操作系统“清除应用数据”，或删除对应Godot应用数据目录。</li><li><strong>删除网页客户端数据：</strong>在浏览器中清除《装甲战场》页面的“站点数据/本地存储”。</li><li><strong>撤回隐私同意：</strong>删除本地隐私同意标记后，下次启动将重新显示隐私流程。</li><li><strong>第三方平台数据：</strong>itch.io、GitHub等平台的数据应通过其账户设置或隐私渠道直接处理。</li><li><strong>需要我们协助：</strong>发送邮件至 <a href="mailto:3829278032@qq.com">3829278032@qq.com</a>，主题可写“装甲战场隐私请求”，说明你希望访问、更正或删除哪类我们实际持有的数据。我们只会要求完成请求所必要的最低限度信息。</li></ul><p>如欧盟/欧洲经济区或英国规则适用，你还可能享有数据可携、反对处理、向当地数据保护监管机构投诉等权利。</p>
+<h2 id="zh-7">十、未成年人专门规则</h2><p>本游戏并非专门面向不满14周岁的儿童设计。我们不会为了广告或画像目的主动收集儿童数据。</p><ul><li>如你在中国大陆且未满14周岁，请在父母或其他监护人同意和指导下使用多人联机、网页客户端和主动反馈功能。</li><li>对于确有必要处理的不满14周岁用户信息，我们仅处理完成相应功能所必需的最少数据，不用于个性化广告、商业画像或不相关营销。</li><li>监护人可以联系我们查阅、更正或删除我们实际持有的儿童相关信息。</li><li>如我们发现未经有效监护人同意而持有不满14周岁儿童的个人信息，我们将在法律允许范围内删除或匿名化，法律要求保留的除外。</li><li>14至18周岁的未成年人也建议在监护人指导下使用，并避免在公开昵称或反馈中披露不必要的真实身份信息。</li></ul><p>第三方平台还可能有自己的最低年龄要求，请同时遵守其规则。</p>
+<h2>十一、跨境与国际用户</h2><p>游戏的大部分本地数据不会因为安装或离线游玩而自动传输到境外。若你主动连接位于其他国家/地区的房主，必要网络数据可能经过跨境网络路由。itch.io、GitHub等独立平台可能在其运营所在国家/地区处理数据，具体以相应平台政策为准。</p>
+<h2>十二、本政策的更新</h2><p>如果游戏的数据处理目的、方式、种类、第三方服务或保存规则发生重要变化，我们会更新本政策。重大变化将通过游戏内隐私流程、版本说明或政策页面进行提示；在法律要求重新取得同意时，我们会更新隐私同意版本并再次询问。</p>
+<h2>十三、联系我们</h2><p>开发者/运营者：<span class="name">5923工作室</span><br>英文名称：<span class="name">5923 Studio</span><br>隐私与支持邮箱：<a href="mailto:3829278032@qq.com">3829278032@qq.com</a></p><p class="muted">本政策旨在准确描述当前公开版本的实际数据处理。若游戏功能与本政策出现不一致，请通过上述邮箱反馈。</p><footer>© 2026 5923工作室 / Armored Battlefield · Privacy Policy v2.0</footer>
+</article>
+<article id="policy-en" lang="en" hidden>
+<section class="hero"><h1>Armored Battlefield Privacy Policy</h1><div class="meta">Version 2.0 | Updated: August 11, 2026 | Effective: August 11, 2026</div><p>This policy is provided by <span class="name">5923 Studio</span> (“we”, “us”, “our”) and explains how <strong>Armored Battlefield</strong> (the “Game”) handles information on Windows, Android, the Web client, and multiplayer features.</p><div class="summary-grid"><div class="summary-card"><strong>No advertising tracking</strong>The current Game does not include advertising SDKs, behavioral analytics SDKs, or third-party login SDKs.</div><div class="summary-card"><strong>Most data stays local</strong>Settings, saves, local accounts, achievements, mastery and skins are mainly stored on your device or in your browser.</div><div class="summary-card"><strong>Networking needs network data</strong>Joining a room requires IP addresses, ports, session identifiers and gameplay synchronization data. A host may be able to see a connecting player's network address.</div><div class="summary-card"><strong>We do not sell personal data</strong>Independent distribution and hosting platforms process their own platform data under their own privacy policies.</div></div></section>
+<nav class="toc"><strong>Quick sections:</strong><a href="#en-1">Data inventory</a><a href="#en-2">Purposes</a><a href="#en-3">Multiplayer</a><a href="#en-4">Retention</a><a href="#en-5">Third parties</a><a href="#en-6">Your rights</a><a href="#en-7">Minors</a></nav>
+<h2 id="en-1">1. Information We Process — Detailed Inventory</h2><p>We apply data minimization. Different platforms and features use different data, so not every player generates every category below.</p>
+<div class="table-wrap"><table><thead><tr><th>Category</th><th>Examples</th><th>Main location</th><th>Purpose</th></tr></thead><tbody>
+<tr><td>Local settings and profile</td><td>Nickname, language, onboarding/tutorial state, audio/graphics settings, HUD opacity, particle density, control mode, sensitivity, key/touch layout, skill loadout and selected vehicle skins</td><td>Your device</td><td>Restore preferences and provide gameplay</td></tr>
+<tr><td>Local account security data</td><td>Local account ID, nickname, PIN salt and hash, hashed/derived device identifier, trusted-device list, creation time and nickname-change timestamp</td><td>Locally encrypted profile file</td><td>Protect local/portable profiles and require verification on a new device</td></tr>
+<tr><td>Gameplay progression</td><td>Mastery XP, achievement progress/unlocks, skins, projectile-trail cosmetics, cosmetics, local kill/win statistics</td><td>Your device</td><td>Save progress and unlock cosmetic content</td></tr>
+<tr><td>Web-client local storage</td><td>Player name, language, key bindings, HUD/performance/control preferences, skin and achievement state, recent-event fingerprints, privacy-consent marker, and a web session token used for reconnection</td><td>Browser <code>localStorage</code></td><td>Remember settings, avoid duplicate counting, support reconnection and consent state</td></tr>
+<tr><td>Multiplayer networking data</td><td>IP address, port, connection state, session identifiers/tokens, nickname, vehicle/skin/skill loadout, and necessary synchronized state such as position, direction, speed, HP/armor, input, projectiles, hits and kill events</td><td>Host device, participating clients' memory, and network transport</td><td>Connect players, synchronize matches, maintain rooms and troubleshoot connectivity</td></tr>
+<tr><td>Feedback you send us</td><td>Email address, message body, issue description, screenshots, logs, attachments and other information you voluntarily provide</td><td>Our support mailbox and related mail service</td><td>Support, bug diagnosis, security and dispute handling</td></tr>
+<tr><td>Privacy-policy website data</td><td>Your policy-language preference is stored locally; GitHub Pages logs visitor IP addresses for security purposes</td><td>Your browser; GitHub Pages infrastructure</td><td>Remember language; hosting-provider security</td></tr>
+</tbody></table></div>
+<div class="notice good"><strong>PIN security:</strong> the local account profile does not store your PIN in plaintext. It uses a salt and hash for verification. Device-identification values are also derived/hashed. Your local profile file still contains security-related data and should be protected.</div>
+<h2 id="en-2">2. Purposes, Methods, and Legal Bases</h2><p>We mainly process information through local storage, runtime memory, and network communications you actively initiate. We do not operate a central user database for advertising profiles.</p><ul><li><strong>Provide the Game and save progress:</strong> local preferences, profile and progression data are necessary for features you choose to use.</li><li><strong>Provide multiplayer:</strong> when you host or join a room, networking identifiers and synchronized gameplay data are necessary to establish and maintain the connection.</li><li><strong>Support and feedback:</strong> when you contact us, we process your message to answer your request.</li><li><strong>Security and disputes:</strong> limited information may be processed where necessary to protect players, the Game and legitimate interests, or to comply with applicable law.</li></ul><p>Where EU/EEA or UK data-protection law applies, legal bases may include necessity to perform a service/contract you request, consent, legitimate interests (such as security and troubleshooting), and legal obligations.</p>
+<h2 id="en-3">3. Multiplayer and What a Host Can See</h2><p>The current multiplayer design uses a player-hosted device as the connection and synchronization point. When you join a room, your device establishes a network connection to that host.</p><ul><li>IP addresses, ports and connection status may be visible to the host device, operating system, router or network provider.</li><li>The host and other players receive the nickname, vehicle/skin/skills and gameplay state required to play the match, including positions, HP, actions, hits and kill events.</li><li>We currently do not operate a public cloud game-account server that centrally stores full match histories. The Game does not, by default, upload complete match logs to 5923 Studio.</li><li>If you connect to a host in another country or region, necessary network data may cross borders through ordinary Internet routing.</li></ul><div class="notice">Do not put passwords, legal names, home addresses, contact details, or other unnecessary private information in public nicknames or fields visible to other players.</div>
+<h2>4. Device Permissions</h2><p>The current version requires network access for multiplayer and Web connections. It does not intentionally request unrelated access to your camera, microphone, contacts or precise location. App/file storage is used for local settings and profiles.</p>
+<h2 id="en-4">5. Retention and Deletion</h2><div class="table-wrap"><table><thead><tr><th>Data</th><th>Retention period / method</th><th>Deletion</th></tr></thead><tbody><tr><td>Windows/Android local settings, profiles and progress</td><td>Until you delete the relevant save/profile, clear app data, or uninstall and remove app data. Backups you create remain until you delete them.</td><td>Use in-game options where available, OS app-data controls, or remove the relevant Godot user-data directory.</td></tr><tr><td>Browser local data</td><td>Until you clear site data/browser storage</td><td>Use your browser's “clear site data/local storage” controls.</td></tr><tr><td>Web session token</td><td>A local copy may remain for reconnection until overwritten or cleared; the host accepts it only while the related session remains valid.</td><td>It becomes unusable after session invalidation; clear site data to remove the local copy.</td></tr><tr><td>Live match/connection state</td><td>Generally processed in runtime memory only while a room, match or connection exists.</td><td>Released when leaving/disconnecting or when the program ends, unless law requires otherwise.</td></tr><tr><td>Support/feedback email</td><td>Normally no longer than 12 months after resolution or the last communication. Security incidents, disputes or legal obligations may require longer retention where necessary.</td><td>Deleted or de-identified after the period, except where continued retention is legally required.</td></tr><tr><td>Privacy-consent marker</td><td>Until you clear local data, or until we change the policy version and request confirmation again.</td><td>Clear application/site local data.</td></tr><tr><td>itch.io / GitHub Pages platform data</td><td>Determined by the relevant platform's privacy policy.</td><td>Use the privacy tools or contact channels provided by that platform.</td></tr></tbody></table></div>
+<h2 id="en-5">6. Sharing, Recipients, and Third-Party Services</h2><p>We do not sell personal data or provide game data to advertisers. We share information only as needed for features you actively use, legal obligations, or protection of legitimate rights.</p><div class="table-wrap"><table><thead><tr><th>Recipient/service</th><th>Purpose</th><th>Possible information</th><th>Relationship</th></tr></thead><tbody><tr><td>Other players / host device</td><td>Multiplayer</td><td>IP/port (primarily visible at the host network layer), nickname, session and necessary synchronized gameplay data</td><td>Player-selected host/peer connection</td></tr><tr><td>itch.io / Itch Corp.</td><td>Game page, distribution, downloads and Web hosting where used</td><td>Account, access, device, download and other information independently collected by itch.io</td><td>Independent platform; not an in-game analytics SDK</td></tr><tr><td>GitHub Pages / GitHub</td><td>Host this privacy-policy website</td><td>GitHub states that Pages logs visitor IP addresses for security and may process related website data under its privacy statement</td><td>Independent hosting platform</td></tr><tr><td>QQ Mail / email service provider</td><td>Receive support mail you choose to send</td><td>Email address, message, attachments and mail metadata</td><td>Only involved when you contact us by email</td></tr></tbody></table></div><p>Third-party platforms have their own privacy rules and retention periods. See <a href="https://itch.io/docs/legal/privacy-policy" target="_blank" rel="noopener noreferrer">itch.io Privacy Policy</a>, <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub Privacy Statement</a>, and <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages" target="_blank" rel="noopener noreferrer">GitHub Pages data-collection information</a>.</p>
+<h2>7. Cookies, Advertising, Analytics, and Automated Decisions</h2><ul><li>The current Game itself does not include advertising SDKs, third-party login SDKs, behavioral analytics SDKs, or cross-site advertising tracking.</li><li>The Web client mainly uses browser local storage for gameplay preferences rather than advertising-tracking cookies.</li><li>Independent hosting/distribution platforms may use cookies or similar technology under their own policies.</li><li>We do not currently use personal data for automated decision-making or profiling that produces legal or similarly significant effects on you.</li></ul>
+<h2>8. Security and Incidents</h2><p>We use measures appropriate to the current scale of the Game, including local-profile encryption, hashed PIN verification, derived/hashed device identifiers, session tokens, and data minimization. Networks and user devices can still be affected by malware, weak credentials, malicious hosts, insecure networks or software vulnerabilities, and no system can guarantee absolute security.</p><p>If a personal-data breach, alteration, or loss occurs or is reasonably suspected, we will take steps within our capabilities and as required by applicable law to investigate, contain, remediate, reset/delete credentials where appropriate, and notify affected users or authorities where legally required.</p>
+<h2 id="en-6">9. Your Rights and How to Exercise Them</h2><p>Depending on applicable law, you may have rights to access, copy, correct, supplement, erase, restrict processing, withdraw consent, or request transfer/portability where legal conditions are met. Because most data exists only on your device, we often do not possess a server-side copy.</p><ul><li><strong>Delete local Game data:</strong> use relevant in-game tools where available, your OS “clear app data” controls, or remove the relevant Godot user-data directory.</li><li><strong>Delete Web-client data:</strong> clear site data/local storage for the Armored Battlefield page in your browser.</li><li><strong>Withdraw privacy consent:</strong> remove the local consent marker; the privacy flow will appear again on next startup.</li><li><strong>Third-party platform data:</strong> use itch.io, GitHub, or the relevant platform's privacy/account tools directly.</li><li><strong>Request our help:</strong> email <a href="mailto:3829278032@qq.com">3829278032@qq.com</a> with a subject such as “Armored Battlefield Privacy Request” and identify the data category involved. We will request only the minimum information reasonably needed to locate and verify the request.</li></ul><p>Where EU/EEA or UK law applies, you may also have rights to data portability, objection, and to lodge a complaint with your local data-protection authority.</p>
+<h2 id="en-7">10. Special Rules for Minors</h2><p>The Game is not specifically designed for children under 14, and we do not intentionally collect children's information for advertising or profiling.</p><ul><li>If you are under 14 in Mainland China, use multiplayer, the Web client, or support/feedback features only with the consent and guidance of a parent or other guardian.</li><li>Where information from a child under 14 is necessary for a requested feature, we limit processing to the minimum necessary and do not use it for personalized advertising, commercial profiling or unrelated marketing.</li><li>Guardians may contact us to access, correct or delete children's information that we actually hold.</li><li>If we learn that we hold personal information of a child under 14 without valid guardian consent, we will delete or anonymize it where legally permitted, unless retention is legally required.</li><li>Users aged 14–17 should also use the Game with appropriate guardian guidance and avoid exposing unnecessary real-world identity information.</li></ul><p>Independent platforms may impose their own minimum-age rules.</p>
+<h2>11. International and Cross-Border Processing</h2><p>Most local Game data is not automatically transferred abroad merely because you install or play offline. If you choose to connect to a host in another country or region, necessary networking data may cross borders through ordinary Internet routing. Independent platforms such as itch.io and GitHub may process data in countries where they operate under their own privacy policies.</p>
+<h2>12. Changes to This Policy</h2><p>If there are material changes to processing purposes, methods, categories, third-party services, or retention practices, we will update this policy. Material changes may be highlighted through the in-game privacy flow, release notes, or this page. Where applicable law requires renewed consent, we will update the consent version and ask again.</p>
+<h2>13. Contact Us</h2><p>Developer/operator: <span class="name">5923 Studio</span><br>Privacy & support email: <a href="mailto:3829278032@qq.com">3829278032@qq.com</a></p><p class="muted">This policy is intended to describe the actual processing of the current public build. If you notice a mismatch between the Game and this policy, contact us.</p><footer>© 2026 5923 Studio / Armored Battlefield · Privacy Policy v2.0</footer>
+</article>
+<article id="policy-ja" lang="ja" hidden>
+<section class="hero"><h1>『Armored Battlefield』プライバシーポリシー</h1><div class="meta">バージョン2.0｜更新日：2026年8月11日｜施行日：2026年8月11日</div><p>本ポリシーは <span class="name">5923 Studio</span>（以下「当方」）が提供し、『Armored Battlefield』（以下「本ゲーム」）の Windows、Android、Webクライアント、マルチプレイ機能における情報の取扱いを説明します。</p><div class="summary-grid"><div class="summary-card"><strong>広告追跡なし</strong>現在の本ゲームには広告SDK、行動分析SDK、第三者ログインSDKは含まれていません。</div><div class="summary-card"><strong>大部分はローカル保存</strong>設定、セーブ、ローカルアカウント、実績、熟練度、スキン等は主に端末またはブラウザに保存されます。</div><div class="summary-card"><strong>通信にはネットワーク情報が必要</strong>ルーム参加時にはIP、ポート、セッション識別子、戦闘同期データを処理します。ホスト端末から接続元アドレスが見える場合があります。</div><div class="summary-card"><strong>個人情報を販売しません</strong>配布・ホスティングの第三者プラットフォームは各自のポリシーに基づき独立して処理します。</div></div></section>
+<nav class="toc"><strong>目次：</strong><a href="#ja-1">情報一覧</a><a href="#ja-2">目的</a><a href="#ja-3">マルチプレイ</a><a href="#ja-4">保存期間</a><a href="#ja-5">第三者</a><a href="#ja-6">権利</a><a href="#ja-7">未成年者</a></nav>
+<h2 id="ja-1">1. 取り扱う情報の具体的な一覧</h2><p>当方はデータ最小化の原則に従います。利用するプラットフォームや機能によって異なるため、全ユーザーが以下の全情報を生成するわけではありません。</p>
+<div class="table-wrap"><table><thead><tr><th>分類</th><th>例</th><th>主な保存場所</th><th>目的</th></tr></thead><tbody>
+<tr><td>ローカル設定・プロフィール</td><td>ニックネーム、言語、チュートリアル状態、音声/画面設定、HUD透明度、パーティクル密度、操作方式、感度、キー/タッチ配置、スキル構成、選択スキン</td><td>利用者の端末</td><td>設定復元とゲーム機能提供</td></tr>
+<tr><td>ローカルアカウントのセキュリティ情報</td><td>ローカルアカウントID、ニックネーム、PINのソルトとハッシュ、派生/ハッシュ化された端末識別子、信頼済み端末一覧、作成時刻、名前変更時刻</td><td>ローカルの暗号化プロフィールファイル</td><td>ローカル/持ち運び可能なプロフィール保護、新端末での確認</td></tr>
+<tr><td>ゲーム進行</td><td>熟練度XP、実績進行/解除、スキン、弾道エフェクト、装飾、ローカルの撃破数/勝利数</td><td>利用者の端末</td><td>進行保存と装飾解除</td></tr>
+<tr><td>Webクライアントのローカル保存</td><td>プレイヤー名、言語、キー設定、HUD/性能/操作設定、スキン・実績状態、直近イベント指紋、プライバシー同意記録、再接続用Webセッショントークン</td><td>ブラウザ <code>localStorage</code></td><td>設定記憶、重複計上防止、再接続、同意状態保持</td></tr>
+<tr><td>マルチプレイ通信</td><td>IP、ポート、接続状態、セッション識別子/トークン、ニックネーム、車両/スキン/スキル構成、位置・方向・速度・耐久/装甲・入力・砲弾・命中・撃破等の同期データ</td><td>ホスト端末、参加クライアントのメモリ、通信経路</td><td>接続、同期、ルーム維持、接続障害の調査</td></tr>
+<tr><td>利用者が送信する問い合わせ</td><td>メールアドレス、本文、問題説明、スクリーンショット、ログ、添付ファイル、その他任意に送信した情報</td><td>サポートメールボックスとメールサービス</td><td>回答、障害調査、セキュリティ・紛争対応</td></tr>
+<tr><td>プライバシーポリシーWebページ</td><td>表示言語をブラウザに保存。GitHub Pagesはセキュリティ目的で訪問者IPを記録</td><td>ブラウザ、GitHub Pages</td><td>言語記憶、ホスティング側の安全維持</td></tr>
+</tbody></table></div><div class="notice good"><strong>PINについて：</strong>ローカルプロフィールにはPINの平文を保存せず、ソルトとハッシュで照合します。端末識別値も派生/ハッシュ化されます。ただしプロフィールファイル自体はセキュリティ関連データを含むため保護してください。</div>
+<h2 id="ja-2">2. 処理目的・方法・法的根拠</h2><p>主な処理方法は端末内保存、実行時メモリ、利用者が自ら開始するネットワーク通信です。広告プロファイル作成を目的とする中央ユーザーデータベースは運用していません。</p><ul><li><strong>ゲーム提供と進行保存：</strong>利用者が選択した機能に必要な設定・プロフィール・進行情報を処理します。</li><li><strong>マルチプレイ：</strong>接続確立と維持に必要なネットワーク識別情報と同期データを処理します。</li><li><strong>サポート：</strong>利用者が連絡した場合、その依頼への回答に必要な情報を処理します。</li><li><strong>安全・紛争：</strong>利用者、本ゲーム、正当な権利の保護または法的義務に必要な範囲で処理する場合があります。</li></ul><p>EU/EEAまたは英国の法令が適用される場合、法的根拠には、要求されたサービス/契約の履行、同意、正当な利益（安全・障害調査等）、法的義務が含まれる場合があります。</p>
+<h2 id="ja-3">3. マルチプレイとホストから見える情報</h2><p>現在のマルチプレイはプレイヤーのホスト端末を接続・同期の中心として利用します。</p><ul><li>IP、ポート、接続状態はホスト端末、OS、ルーター、ネットワーク事業者から見える場合があります。</li><li>ホストおよび他プレイヤーには、試合に必要なニックネーム、車両/スキン/スキル、位置、耐久、行動、命中、撃破等が同期されます。</li><li>完全な試合履歴を長期間集中保存する公開クラウドゲームアカウントサーバーは現在運用しておらず、標準状態で完全な試合ログを5923 Studioへアップロードしません。</li><li>別の国・地域のホストへ接続する場合、必要なネットワークデータが通常の通信経路により越境する場合があります。</li></ul><div class="notice">公開ニックネームや他プレイヤーに見える欄へ、パスワード、実名、住所、連絡先等の不要な個人情報を入力しないでください。</div>
+<h2>4. 端末権限</h2><p>現在のバージョンはマルチプレイ/Web接続のためネットワークアクセスを使用します。カメラ、マイク、連絡先、正確な位置情報等、現在の機能と無関係な権限を意図的に要求しません。保存領域はローカル設定・プロフィールのために利用します。</p>
+<h2 id="ja-4">5. 保存期間と削除</h2><div class="table-wrap"><table><thead><tr><th>データ</th><th>保存期間/決定方法</th><th>削除方法</th></tr></thead><tbody><tr><td>Windows/Androidのローカル設定・プロフィール・進行</td><td>該当データを削除、アプリデータを消去、またはアンインストール時にデータを削除するまで。利用者が作成したバックアップは利用者が削除するまで残ります。</td><td>ゲーム内機能（提供される場合）、OSのアプリデータ消去、該当Godotユーザーデータディレクトリの削除</td></tr><tr><td>ブラウザのローカルデータ</td><td>サイトデータ/ブラウザストレージを消去するまで</td><td>ブラウザのサイトデータ/ローカルストレージを消去</td></tr><tr><td>Webセッショントークン</td><td>ローカルコピーは再接続のため上書き/削除まで残る場合があります。ホスト側では該当セッション有効期間中のみ受理</td><td>セッション失効後は利用不可。サイトデータ消去でローカルコピー削除</td></tr><tr><td>リアルタイム戦闘/接続状態</td><td>原則としてルーム・試合・接続が存在する間のみ実行メモリで処理</td><td>退出・切断・プログラム終了時に解放</td></tr><tr><td>サポートメール</td><td>通常、問題解決または最終連絡後12か月以内。セキュリティ事故・紛争・法的義務に必要な場合は必要期間延長</td><td>期間終了後に削除または非識別化</td></tr><tr><td>プライバシー同意記録</td><td>ローカルデータ消去、またはポリシー更新で再確認を求めるまで</td><td>アプリ/サイトのローカルデータ消去</td></tr><tr><td>itch.io / GitHub Pages</td><td>各プラットフォームのポリシーによる</td><td>各プラットフォームのプライバシー機能/窓口</td></tr></tbody></table></div>
+<h2 id="ja-5">6. 共有先・第三者サービス</h2><p>個人情報を販売せず、ゲームデータを広告事業者へ提供しません。</p><div class="table-wrap"><table><thead><tr><th>受領者/サービス</th><th>目的</th><th>情報</th><th>関係</th></tr></thead><tbody><tr><td>他プレイヤー/ホスト端末</td><td>マルチプレイ</td><td>IP/ポート（主にホストのネットワーク層）、ニックネーム、セッション、必要な戦闘同期データ</td><td>利用者が選択したホスト/ピア接続</td></tr><tr><td>itch.io / Itch Corp.</td><td>ゲームページ、配布、ダウンロード、必要に応じWebホスティング</td><td>itch.ioが独立して処理するアカウント、アクセス、端末、ダウンロード等</td><td>独立第三者。ゲーム内分析SDKではありません</td></tr><tr><td>GitHub Pages / GitHub</td><td>本ポリシーWebページのホスティング</td><td>GitHubはPages訪問者IPをセキュリティ目的で記録すると説明しています</td><td>独立ホスティングサービス</td></tr><tr><td>QQ Mail / メールサービス</td><td>サポートメール受信</td><td>メールアドレス、本文、添付、メールメタデータ</td><td>利用者がメールで連絡した場合のみ</td></tr></tbody></table></div><p><a href="https://itch.io/docs/legal/privacy-policy" target="_blank" rel="noopener noreferrer">itch.io Privacy Policy</a>、<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub Privacy Statement</a>、<a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages" target="_blank" rel="noopener noreferrer">GitHub Pagesのデータ収集説明</a>も参照してください。</p>
+<h2>7. Cookie・広告・分析・自動意思決定</h2><ul><li>現在の本ゲーム自体には広告SDK、第三者ログインSDK、行動分析SDK、クロスサイト広告追跡はありません。</li><li>Webクライアントは広告追跡Cookieではなく、主にブラウザローカルストレージで設定を保存します。</li><li>第三者プラットフォームは各自の規則に従ってCookie等を使用する場合があります。</li><li>法的または同様に重大な効果を与える自動意思決定・プロファイリングを現在行っていません。</li></ul>
+<h2>8. セキュリティと事故対応</h2><p>ローカルプロフィールの暗号化、PINハッシュ照合、端末識別値の派生/ハッシュ、セッショントークン、データ最小化等、現在の規模に応じた対策を講じます。ただし完全な安全を保証することはできません。</p><p>漏えい、改ざん、消失が発生または合理的に疑われる場合、能力および適用法令の範囲で調査、影響抑制、修復、必要な認証情報の削除/再設定を行い、法令上必要な場合は利用者または当局へ通知します。</p>
+<h2 id="ja-6">9. 利用者の権利</h2><p>適用法令に応じて、アクセス、コピー、訂正、補足、削除、処理制限、同意撤回、条件を満たす場合の移転/ポータビリティ等の権利があります。大部分のデータは端末のみに存在し、当方がサーバー側コピーを保有しない場合があります。</p><ul><li><strong>ローカルゲームデータ：</strong>ゲーム内機能（提供される場合）、OSのアプリデータ消去、Godotユーザーデータ削除。</li><li><strong>Webデータ：</strong>ブラウザで本ゲームのサイトデータ/ローカルストレージを消去。</li><li><strong>同意撤回：</strong>ローカル同意記録を削除すると次回起動時に再表示されます。</li><li><strong>第三者プラットフォーム：</strong>itch.io、GitHub等の機能を直接利用してください。</li><li><strong>当方への依頼：</strong><a href="mailto:3829278032@qq.com">3829278032@qq.com</a>へ「Armored Battlefield Privacy Request」等の件名で対象データの種類を記載してください。</li></ul><p>EU/EEAまたは英国法が適用される場合、データポータビリティ、異議申立て、監督機関への苦情等の権利を有する場合があります。</p>
+<h2 id="ja-7">10. 未成年者に関する特別規則</h2><p>本ゲームは14歳未満の子どもを主対象として設計しておらず、広告やプロファイリング目的で子どもの情報を意図的に収集しません。</p><ul><li>中国本土で14歳未満の場合、保護者の同意・指導の下でマルチプレイ、Webクライアント、問い合わせ機能を利用してください。</li><li>14歳未満の利用者情報の処理が必要な場合、要求された機能に必要な最小限に限定し、個別広告、商業プロファイリング、無関係なマーケティングには使用しません。</li><li>保護者は、当方が実際に保有する子どもの情報についてアクセス、訂正、削除を求めることができます。</li><li>有効な保護者同意なしに情報を保有していると判明した場合、法令上許される範囲で削除または匿名化します。</li><li>14～17歳の利用者も保護者の適切な指導の下で利用し、不要な実世界の身元情報を公開しないでください。</li></ul><p>第三者プラットフォームには独自の最低年齢要件がある場合があります。</p>
+<h2>11. 国際・越境処理</h2><p>インストールやオフラインプレイだけで大部分のローカルデータが自動的に国外送信されることはありません。別の国・地域のホストへ接続した場合、必要なネットワークデータが通常の通信経路により越境する場合があります。itch.io、GitHub等は各自のポリシーに従い処理します。</p>
+<h2>12. ポリシー変更</h2><p>処理目的・方法・種類、第三者サービス、保存規則に重要な変更がある場合、本ポリシーを更新します。法令上再同意が必要な場合は同意バージョンを更新し、再度確認を求めます。</p>
+<h2>13. 連絡先</h2><p>開発・運営：<span class="name">5923 Studio</span><br>プライバシー/サポート：<a href="mailto:3829278032@qq.com">3829278032@qq.com</a></p><p class="muted">本ポリシーは現在の公開ビルドの実際の処理を正確に説明することを目的としています。相違を見つけた場合はご連絡ください。</p><footer>© 2026 5923 Studio / Armored Battlefield · Privacy Policy v2.0</footer>
+</article>
+<article id="policy-ru" lang="ru" hidden>
+<section class="hero"><h1>Политика конфиденциальности Armored Battlefield</h1><div class="meta">Версия 2.0 | Обновлено: 11 августа 2026 г. | Вступает в силу: 11 августа 2026 г.</div><p>Настоящая политика предоставлена <span class="name">5923 Studio</span> («мы») и описывает обработку информации в <strong>Armored Battlefield</strong> («Игра») на Windows, Android, в веб-клиенте и в многопользовательском режиме.</p><div class="summary-grid"><div class="summary-card"><strong>Без рекламного отслеживания</strong>Текущая версия Игры не содержит рекламных SDK, SDK поведенческой аналитики или сторонних SDK входа.</div><div class="summary-card"><strong>Большая часть данных хранится локально</strong>Настройки, сохранения, локальные аккаунты, достижения, мастерство и облики в основном находятся на вашем устройстве или в браузере.</div><div class="summary-card"><strong>Сетевая игра требует сетевых данных</strong>Для входа в комнату используются IP, порт, идентификатор сеанса и данные синхронизации. Хост может видеть сетевой адрес подключающегося игрока.</div><div class="summary-card"><strong>Мы не продаём персональные данные</strong>Независимые платформы распространения и хостинга обрабатывают свои данные по собственным политикам.</div></div></section>
+<nav class="toc"><strong>Разделы:</strong><a href="#ru-1">Состав данных</a><a href="#ru-2">Цели</a><a href="#ru-3">Сетевая игра</a><a href="#ru-4">Хранение</a><a href="#ru-5">Третьи стороны</a><a href="#ru-6">Ваши права</a><a href="#ru-7">Несовершеннолетние</a></nav>
+<h2 id="ru-1">1. Какие данные мы обрабатываем</h2><p>Мы придерживаемся принципа минимизации данных. Набор информации зависит от платформы и используемых функций; не каждый игрок создаёт все перечисленные категории.</p>
+<div class="table-wrap"><table><thead><tr><th>Категория</th><th>Примеры</th><th>Основное место хранения</th><th>Назначение</th></tr></thead><tbody>
+<tr><td>Локальные настройки и профиль</td><td>Ник, язык, состояние обучения, звук/графика, прозрачность HUD, плотность частиц, режим управления, чувствительность, клавиши/сенсорная раскладка, набор навыков, выбранные облики техники</td><td>Ваше устройство</td><td>Восстановление настроек и работа Игры</td></tr>
+<tr><td>Данные безопасности локального аккаунта</td><td>ID локального аккаунта, ник, соль и хэш PIN, производный/хэшированный идентификатор устройства, доверенные устройства, время создания и изменения ника</td><td>Локальный зашифрованный файл профиля</td><td>Защита локального/переносимого профиля и проверка нового устройства</td></tr>
+<tr><td>Игровой прогресс</td><td>XP мастерства, достижения, облики, эффекты трассера, косметика, локальная статистика убийств/побед</td><td>Ваше устройство</td><td>Сохранение прогресса и разблокировка косметики</td></tr>
+<tr><td>Локальное хранилище веб-клиента</td><td>Имя игрока, язык, клавиши, HUD/производительность/управление, облики и достижения, отпечатки недавних событий, отметка согласия, токен веб-сеанса для переподключения</td><td><code>localStorage</code> браузера</td><td>Запоминание настроек, защита от повторного учёта, переподключение и состояние согласия</td></tr>
+<tr><td>Данные сетевой игры</td><td>IP, порт, состояние соединения, идентификатор/токен сеанса, ник, техника/облик/навыки, а также позиция, направление, скорость, HP/броня, ввод, снаряды, попадания, убийства и иные необходимые данные синхронизации</td><td>Устройство хоста, память клиентов и сетевой транспорт</td><td>Соединение, синхронизация боя, поддержка комнаты и диагностика</td></tr>
+<tr><td>Обращения, которые вы отправляете</td><td>Email, сообщение, описание проблемы, скриншоты, логи, вложения и иные добровольно отправленные сведения</td><td>Наш почтовый ящик и почтовый сервис</td><td>Поддержка, диагностика, безопасность и споры</td></tr>
+<tr><td>Сайт политики</td><td>Предпочтительный язык хранится локально; GitHub Pages регистрирует IP посетителей в целях безопасности</td><td>Ваш браузер; GitHub Pages</td><td>Запоминание языка; безопасность хостинга</td></tr>
+</tbody></table></div><div class="notice good"><strong>PIN:</strong> локальный профиль не хранит PIN открытым текстом; используются соль и хэш. Идентификатор устройства также преобразуется/хэшируется. Сам файл профиля содержит данные безопасности и должен быть защищён.</div>
+<h2 id="ru-2">2. Цели, способы и правовые основания</h2><p>Основные способы обработки — локальное хранение, оперативная память и сетевые соединения, которые вы запускаете сами. Мы не ведём центральную базу пользователей для рекламного профилирования.</p><ul><li><strong>Работа Игры и сохранение прогресса:</strong> локальные настройки, профиль и прогресс необходимы для выбранных вами функций.</li><li><strong>Сетевая игра:</strong> при создании или входе в комнату сетевые идентификаторы и синхронизация необходимы для соединения.</li><li><strong>Поддержка:</strong> если вы пишете нам, мы используем сообщение для ответа на запрос.</li><li><strong>Безопасность и споры:</strong> ограниченные данные могут обрабатываться для защиты игроков и Игры или выполнения закона.</li></ul><p>Если применимо законодательство ЕС/ЕЭЗ или Великобритании, основания могут включать исполнение запрошенной услуги/договора, согласие, законные интересы (например, безопасность и диагностика) и юридические обязанности.</p>
+<h2 id="ru-3">3. Сетевая игра и сведения, доступные хосту</h2><p>Текущая архитектура использует устройство игрока-хоста как узел соединения и синхронизации.</p><ul><li>IP, порт и состояние соединения могут быть видны устройству хоста, ОС, маршрутизатору или оператору сети.</li><li>Хост и другие игроки получают ник, технику/облик/навыки и боевое состояние, необходимое для матча: позиции, HP, действия, попадания, убийства и т. п.</li><li>Сейчас мы не эксплуатируем публичный облачный сервер игровых аккаунтов для долгосрочного централизованного хранения полной истории матчей. По умолчанию Игра не загружает полные журналы матчей в 5923 Studio.</li><li>При подключении к хосту в другой стране/регионе необходимые сетевые данные могут пересекать границы по обычным интернет-маршрутам.</li></ul><div class="notice">Не указывайте пароли, настоящее имя, домашний адрес, контакты или другую ненужную личную информацию в публичном нике или полях, видимых другим игрокам.</div>
+<h2>4. Разрешения устройства</h2><p>Текущая версия использует сетевой доступ для мультиплеера и веб-подключения. Она не запрашивает намеренно не связанные с функциями доступ к камере, микрофону, контактам или точной геолокации. Локальное хранилище используется для настроек и профилей.</p>
+<h2 id="ru-4">5. Сроки хранения и удаление</h2><div class="table-wrap"><table><thead><tr><th>Данные</th><th>Срок / правило хранения</th><th>Удаление</th></tr></thead><tbody><tr><td>Локальные данные Windows/Android</td><td>До удаления сохранения/профиля, очистки данных приложения или удаления приложения вместе с данными. Созданные вами резервные копии остаются до их удаления вами.</td><td>Игровые функции (если есть), очистка данных в ОС или удаление каталога данных Godot</td></tr><tr><td>Данные браузера</td><td>До очистки данных сайта/локального хранилища</td><td>Очистить данные сайта/localStorage</td></tr><tr><td>Токен веб-сеанса</td><td>Локальная копия может оставаться для переподключения до перезаписи/очистки; хост принимает её только пока сеанс действителен</td><td>После аннулирования сеанса токен не работает; локальную копию можно удалить очисткой сайта</td></tr><tr><td>Текущее состояние боя/соединения</td><td>Как правило, только в оперативной памяти, пока существует комната, матч или соединение</td><td>Освобождается при выходе/отключении/завершении программы</td></tr><tr><td>Письма поддержки</td><td>Обычно не более 12 месяцев после решения вопроса или последнего сообщения. Инциденты безопасности, споры и закон могут требовать более долгого срока</td><td>Удаление или обезличивание после срока, кроме обязательного хранения</td></tr><tr><td>Отметка согласия</td><td>До очистки локальных данных или изменения версии политики с повторным запросом</td><td>Очистить локальные данные приложения/сайта</td></tr><tr><td>Данные itch.io / GitHub Pages</td><td>По правилам соответствующей платформы</td><td>Использовать инструменты/контакты платформы</td></tr></tbody></table></div>
+<h2 id="ru-5">6. Передача и сторонние сервисы</h2><p>Мы не продаём персональные данные и не передаём игровые данные рекламодателям.</p><div class="table-wrap"><table><thead><tr><th>Получатель/сервис</th><th>Цель</th><th>Возможные данные</th><th>Роль</th></tr></thead><tbody><tr><td>Другие игроки / устройство хоста</td><td>Мультиплеер</td><td>IP/порт (в основном на сетевом уровне хоста), ник, сеанс и необходимая синхронизация боя</td><td>Выбранное игроком соединение с хостом/пиром</td></tr><tr><td>itch.io / Itch Corp.</td><td>Страница игры, распространение, загрузки и веб-хостинг при использовании</td><td>Аккаунт, доступ, устройство, загрузки и иные данные, независимо собираемые itch.io</td><td>Независимая платформа; не SDK аналитики внутри Игры</td></tr><tr><td>GitHub Pages / GitHub</td><td>Хостинг сайта этой политики</td><td>GitHub указывает, что Pages регистрирует IP посетителей в целях безопасности</td><td>Независимая хостинговая платформа</td></tr><tr><td>QQ Mail / почтовый сервис</td><td>Получение писем поддержки</td><td>Email, текст, вложения и почтовые метаданные</td><td>Только если вы сами пишете нам</td></tr></tbody></table></div><p>Политики третьих сторон: <a href="https://itch.io/docs/legal/privacy-policy" target="_blank" rel="noopener noreferrer">itch.io Privacy Policy</a>, <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub Privacy Statement</a>, <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages" target="_blank" rel="noopener noreferrer">GitHub Pages — сбор данных</a>.</p>
+<h2>7. Cookie, реклама, аналитика и автоматические решения</h2><ul><li>Текущая Игра сама по себе не содержит рекламных SDK, сторонних SDK входа, поведенческой аналитики или межсайтового рекламного отслеживания.</li><li>Веб-клиент использует главным образом локальное хранилище браузера для игровых настроек, а не рекламные cookies.</li><li>Независимые платформы могут использовать cookies или аналогичные технологии по своим политикам.</li><li>Мы не используем персональные данные для автоматизированных решений/профилирования, имеющих юридические или сопоставимые существенные последствия.</li></ul>
+<h2>8. Безопасность и инциденты</h2><p>Мы используем шифрование локального профиля, проверку хэша PIN, производные/хэшированные идентификаторы устройств, токены сеанса и минимизацию данных. Однако абсолютную безопасность гарантировать нельзя.</p><p>При утечке, изменении или потере персональных данных мы предпримем доступные и требуемые законом меры по расследованию, ограничению последствий, исправлению и, при необходимости, уведомлению пользователей или органов.</p>
+<h2 id="ru-6">9. Ваши права</h2><p>В зависимости от применимого закона вы можете иметь права на доступ, копирование, исправление, дополнение, удаление, ограничение обработки, отзыв согласия и переносимость при наличии законных условий. Большинство данных хранится только у вас, поэтому у нас часто нет серверной копии.</p><ul><li><strong>Локальные данные Игры:</strong> игровые функции (если есть), очистка данных приложения в ОС или удаление каталога данных Godot.</li><li><strong>Веб-данные:</strong> очистить данные сайта/localStorage.</li><li><strong>Отзыв согласия:</strong> удалить локальную отметку согласия; при следующем запуске процедура появится снова.</li><li><strong>Данные платформ:</strong> используйте настройки/каналы itch.io, GitHub и соответствующих платформ.</li><li><strong>Запрос к нам:</strong> напишите на <a href="mailto:3829278032@qq.com">3829278032@qq.com</a>, например с темой «Armored Battlefield Privacy Request», и укажите категорию данных.</li></ul><p>Если применимо законодательство ЕС/ЕЭЗ или Великобритании, могут также действовать права на переносимость, возражение и жалобу в местный орган защиты данных.</p>
+<h2 id="ru-7">10. Специальные правила для несовершеннолетних</h2><p>Игра не предназначена специально для детей младше 14 лет, и мы не собираем намеренно детские данные для рекламы или профилирования.</p><ul><li>Если вам меньше 14 лет в материковом Китае, используйте мультиплеер, веб-клиент и поддержку только с согласием и под руководством родителя/опекуна.</li><li>Если обработка данных ребёнка младше 14 лет необходима для запрошенной функции, она ограничивается минимумом и не используется для персонализированной рекламы, коммерческого профилирования или несвязанного маркетинга.</li><li>Опекун может связаться с нами для доступа, исправления или удаления данных ребёнка, которые мы фактически храним.</li><li>Если мы узнаем, что храним такие данные без действительного согласия опекуна, мы удалим или обезличим их, если закон это допускает.</li><li>Пользователям 14–17 лет также рекомендуется пользоваться Игрой под разумным руководством опекуна и не раскрывать лишние реальные идентификационные сведения.</li></ul><p>Независимые платформы могут устанавливать собственный минимальный возраст.</p>
+<h2>11. Международная и трансграничная обработка</h2><p>Большинство локальных данных не отправляется автоматически за границу только из-за установки или офлайн-игры. Если вы подключаетесь к хосту в другой стране/регионе, необходимые сетевые данные могут пересекать границы по обычным интернет-маршрутам. itch.io и GitHub обрабатывают данные по своим политикам.</p>
+<h2>12. Изменения политики</h2><p>При существенном изменении целей, способов, категорий данных, сторонних сервисов или сроков хранения мы обновим политику. Если закон требует нового согласия, версия согласия будет изменена и запрос появится снова.</p>
+<h2>13. Контакты</h2><p>Разработчик/оператор: <span class="name">5923 Studio</span><br>Конфиденциальность и поддержка: <a href="mailto:3829278032@qq.com">3829278032@qq.com</a></p><p class="muted">Цель этой политики — точно описывать фактическую обработку данных в текущей публичной сборке. Если вы заметили расхождение, сообщите нам.</p><footer>© 2026 5923 Studio / Armored Battlefield · Privacy Policy v2.0</footer>
+</article>
 </main>
-
 <script>
-(function () {
-  const stored = localStorage.getItem("privacy_language");
-  const browser = (navigator.language || "").toLowerCase();
-  const initial = stored || (browser.startsWith("zh") ? "zh" : "en");
-  setLanguage(initial);
-})();
-
-function setLanguage(lang) {
-  const zh = lang !== "en";
-  document.getElementById("policy-zh").hidden = !zh;
-  document.getElementById("policy-en").hidden = zh;
-  document.getElementById("btn-zh").classList.toggle("active", zh);
-  document.getElementById("btn-en").classList.toggle("active", !zh);
-  document.documentElement.lang = zh ? "zh-CN" : "en";
-  document.title = zh
-    ? "《装甲战场》隐私政策"
-    : "Armored Battlefield Privacy Policy";
-  localStorage.setItem("privacy_language", zh ? "zh" : "en");
-}
+const LANGS=['zh','en','ja','ru'];
+function setLanguage(lang){if(!LANGS.includes(lang))lang='zh';for(const x of LANGS){const a=document.getElementById('policy-'+x),b=document.getElementById('btn-'+x);if(a)a.hidden=x!==lang;if(b)b.classList.toggle('active',x===lang);}document.documentElement.lang=lang==='zh'?'zh-CN':lang;try{localStorage.setItem('privacy_language',lang)}catch(_){}try{history.replaceState(null,'','#'+lang)}catch(_){}window.scrollTo(0,0)}
+(function(){let lang=(location.hash||'').replace('#','');if(!LANGS.includes(lang)){try{lang=localStorage.getItem('privacy_language')||''}catch(_){}}if(!LANGS.includes(lang)){const nav=(navigator.language||'').toLowerCase();if(nav.startsWith('ja'))lang='ja';else if(nav.startsWith('ru'))lang='ru';else if(nav.startsWith('en'))lang='en';else lang='zh'}setLanguage(lang)})();
 </script>
-</body>
-</html>
+</body></html>
